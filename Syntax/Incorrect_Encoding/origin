@@ -1,0 +1,14 @@
+incorrect_encoding_1
+Example_SIMD.4.c
+
+incorrect_encoding_2
+ChatGPT
+--> It contains an invisible character at the end of the pragma, which the compiler doesn't recognize
+
+incorrect_encoding_3
+ChatGPT
+--> It contains an invisible space in the pragma
+
+incorrect_encoding_4
+Example_doacross.4.c
+--> Contains an invisible BIDI override after the pragma

@@ -1,0 +1,26 @@
+wrong_pragma_curly_braces_1
+Example_SIMD.8.c
+
+wrong_pragma_curly_braces_2
+Example_target.2.c
+
+wrong_pragma_curly_braces_3
+Self-Written
+
+wrong_pragma_curly_braces_4
+Example_collapse.3.c
+
+wrong_pragma_curly_braces_5
+Example_array_sections.4.c
+
+wrong_pragma_curly_braces_6
+openmp-examples-4.5.0.pdf Example_async_target.3.c
+
+wrong_pragma_curly_braces_7
+Example_array_sections.4.c
+
+wrong_pragma_curly_braces_8
+ChatGPT
+
+wrong_pragma_curly_braces_9
+Example_declare_target.4.c

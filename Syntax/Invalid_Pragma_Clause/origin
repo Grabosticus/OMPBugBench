@@ -1,0 +1,53 @@
+invalid_pragma_clause_1
+openmp-examples-4.5.0.pdf Example_atomic.1.c
+
+invalid_pragma_clause_2
+openmp-examples-4.5.0.pdf Example_collape.1.c
+
+invalid_pragma_clause_3
+openmp-examples-4.5.0.pdf Example_device.1.c
+
+invalid_pragma_clause_4
+ChatGPT
+
+invalid_pragma_clause_5
+openmp-examples-4.5.0.pdf Example_SIMD.2.c
+
+invalid_pragma_clause_6
+Self-Written
+
+invalid_pragma_clause_7
+Example_nowait.2.c
+
+invalid_pragma_clause_8
+Example_linear_in_loop.1.c
+
+invalid_pragma_clause_9
+Example_lock_owner.1.c
+
+invalid_pragma_clause_10
+Example_nested_loop.2.c
+
+invalid_pragma_clause_11
+ChatGPT
+
+invalid_pragma_clause_12
+openmp-examples-4.5.0.pdf Example_lastprivate.1.c
+
+invalid_pragma_clause_13
+openmp-examples-4.5.0.pdf Example_master.1.c
+
+invalid_pragma_clause_14
+Example_affinity.1.c
+
+invalid_pragma_clause_15
+ChatGPT
+
+invalid_pragma_clause_16
+ChatGPT
+
+invalid_pragma_clause_17
+Example_device.2.c
+
+invalid_pragma_clause_18
+Example_doacross.5.c
