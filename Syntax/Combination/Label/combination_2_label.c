@@ -9,7 +9,7 @@ Bug Lines:
 40 (reduction operation argument missing, "for" written as "for_each")
 45 ("parallel"-keyword added to "critical"-directive, curly brace is placed wrong)
 54 ("taskwait" written as "wait")
-Difficulty: Medium
+Difficulty: Hard
 */
 
 #include <stdio.h>
