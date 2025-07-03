@@ -7,8 +7,7 @@ The code examples are divided into three categories: **Syntax/Semantic Errors**,
 Each category contains 50 examples and is divided into multiple subcategories. 
 The directories with the subcategories contain a `origin`-file, in which the origin of each code example is given.
 Each subcategory directory contains a `Label`- and `Bug`-directory. 
-The `Bug`-directory contains the actual errors in the code examples and the `Label`-directory contains explanations of the code, 
-the bugs as well as the difficulty of a given code example, as well as code with a possible fix for the mentioned bugs.
+The `Bug`-directory contains the actual errors in the code examples and the `Label`-directory contains explanations of the code and of the bugs, as well as the difficulty of a given code example and code with a possible fix for the mentioned bugs.
 
 ## Categories
 The following sections present the different types of errors in each category.
