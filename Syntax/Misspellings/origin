@@ -6,7 +6,6 @@ openmp-examples-4.5.0.pdf Example_array_sections.3.c
 
 misspellings_3
 openmp-examples-4.5.0.pdf Example_critical.1.c
----> This example does compile in the buggy version (it replaced "=" with "==" in  a variable assignment. Ask if this is okay!)
 
 misspellings_4
 openmp-examples-4.5.0.pdf Example_doacross.1.c
