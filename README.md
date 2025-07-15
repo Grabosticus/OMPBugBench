@@ -13,7 +13,7 @@ The `Bug`-directory contains the actual errors in the code examples and the `Lab
 The following sections present the different types of errors in each category.
 ### Syntax/Semantic Errors
 We collected a total of 50 OpenMP-related syntax/semantic errors. The errors either lead to the program not compiling (syntax error) or to the program outputting a wrong result (semantic error).
-Although race conditions and deadlocks are also semantic errors, in this benchmark they have their own category.
+Although race conditions and deadlocks are also semantic errors, in this benchmark they have their own category. Many examples (the ones whose origin states "Example_*.c")in this error category have been taken and changed from the OpenMP API [1].
 These errors have been further divided into the following types:
 #### Incorrect Encoding
 A category of errors that arise from the use of invalid characters in OpenMP pragma statements. Some IDEs, such as IntelliJ, do not highlight these characters as erroneous.
@@ -31,7 +31,7 @@ These are errors that arise from an invalid usage or placement of curly braces a
 Contains code examples with multiple errors from multiple other subcategories of Syntax/Semantic Errors
 
 ### Race Conditions
-We collected a total of 50 race conditions. Most race conditions have been taken from the **DataRaceBench** [1][2] benchmark suite. The race conditions have been divided into the following subcategories:
+We collected a total of 50 race conditions. Most race conditions have been taken from the **DataRaceBench** [2][3] benchmark suite. The race conditions have been divided into the following subcategories:
 #### Lost Update
 A Lost Update is a type of race condition, where multiple threads write simultaneously to a shared variable, without any synchronization. This can lead to the update of one thread being immediately overwritten by another one, resulting in non-deterministic behavior.
 #### Multiple Race Types
@@ -56,13 +56,15 @@ A Resource Deadlock occurs, when a thread locks a resource X and wants to lock a
 #### Synchronization Deadlock
 A Synchronization Deadlock in the benchmark refers to a situation where a deadlock occurs because of an erroneous synchronization between two or more threads. An example of such a deadlock is when not all threads in a team reach a specific barrier statement, leading to the threads waiting infinitely at the barrier synchronization point.
 
+
 ## References
-[1]: Chunhua Liao, Pei-Hung Lin, Joshua Asplund, Markus Schordan, and Ian
+[1]: OpenMP Architecture Review Board, OpenMP Application Programming Interface Examples Version 4.5.0, 2016, https://github.com/OpenMP/Examples/tree/v4.5.0/sources \
+[2]: Chunhua Liao, Pei-Hung Lin, Joshua Asplund, Markus Schordan, and Ian
 Karlin. DataRaceBench: A Benchmark Suite for Systematic Evaluation of
 Data Race Detection Tools. In Proceedings of the International Conference
 for High Performance Computing, Networking, Storage and Analysis (SC ’17),
 pages 11:1–11:14, Denver, CO, USA, 2017. ACM. Best Paper Finalist. \
-[2]: Pei-Hung Lin and Chunhua Liao. High-precision evaluation of both static and
+[3]: Pei-Hung Lin and Chunhua Liao. High-precision evaluation of both static and
 dynamic tools using dataracebench. In International Workshop on Software
 Correctness for HPC Applications (Correctness), SC21, 2021.
 
